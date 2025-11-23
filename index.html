@@ -2,66 +2,616 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>portfolio</title>
+   <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+   <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="maincontainer">
-        <div class="asidebar">
-            <div class="profilepic"></div>
-            <h2>Danish Devx</h2>
-            <p class="info"><span>uui/us/Designer</span> in Pakistan</p>
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Services</a>
-            <a href="#">Skills</a>
-            <a href="#">Education</a>
-            <a href="#">Experience</a>
-            <a href="#">Work</a>
-            <a href="#">Blog</a>
-            <a href="#">Contact</a>
+   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script>
+      AOS.init();
+   </script>
+   <div class="maincontainer">
+      <div class="asidebar">
+         <div class="profilepic"></div>
+         <h2>Danish Devx</h2>
+         <p class="info"><span>uui/us/Designer</span> in Pakistan</p>
+         <a href="#home">Home</a>
+         <a href="#aboutus">About</a>
+         <a href="#Services">Services</a>
+         <a href="#Skills">Skills</a>
+         <a href="#education">Education</a>
+         <a href="#Experience">Experience</a>
+         <a href="#mywork">Work</a>
+         <a href="#blog">Blog</a>
+         <a href="#contact">Contact</a>
 
-            <p class="copy">Copyright ©2025 All rights reserved | <br>This template is made with<i
-                    class="fa-solid fa-heart" style="color: black;"></i>by <a
-                    href="https://github.com/danish-devx">Danish-devx</a></p>
-            <p class="unsplash">Demo Images: <a href="https://unsplash.com/">Unsplash.com</a></p>
+         <p class="copy">Copyright ©2025 All rights reserved | <br>This template is made with<i
+               class="fa-solid fa-heart" style="color: black;"></i>by <a
+               href="https://github.com/danish-devx">Danish-devx</a></p>
+         <p class="unsplash">Demo Images: <a href="https://unsplash.com/">Unsplash.com</a></p>
 
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
 
-        </div>
+      </div>
 
-        <div class="section">
-            <div class="header">
-                <div>
-                    <h1>I am <br> a Designer</h1>
-                    <p>100% html5 bootstrap templates Made <br> by <span> colorlib.com</span></p>
-                    <button>View portfolio</button>
-                </div>
+      <div class="section">
+         <div class="header">
+            <div data-aos="fade-up" data-aos-duration="3000" id="home">
+               <h1>I am <br> a Designer</h1>
+               <p>100% html5 bootstrap templates Made <br> by <span> colorlib.com</span></p>
+               <button>View portfolio</button>
+            </div>
+         </div>
+
+
+         <p class="about" data-aos="fade-right" id="aboutus">About Us</p>
+         <h2 class="who" data-aos="fade-right">Who Am I?</h2>
+         <p class="para1" data-aos="fade-right"><b>Hi I'm Danish </b> On her way she met a copy. The copy warned the
+            Little Blind Text, that
+            where it came from it <br> would have been rewritten a thousand times and everything that was left from
+            its origin would be the word "and" <br> and the Little Blind Text should turn around and return to its
+            own, safe country.</p>
+         <p class="para2" data-aos="fade-right">Even the all-powerful Pointing has no control about the blind texts it
+            is an almost
+            unorthographic life One day <br>however a small line of blind text by the name of Lorem Ipsum decided to
+            leave for the far World of Grammar.</p>
+
+         <div class="maincard" data-aos="fade-up" data-aos-duration="3000">
+            <div class="card1">
+               <i class="fa-regular fa-lightbulb"></i>
+               <p>Graphic Design</p>
+            </div>
+
+            <div class="card2">
+               <i class="fa-solid fa-earth-africa"></i>
+               <p>Web Design</p>
+            </div>
+
+            <div class="card3">
+               <i class="fa-solid fa-database"></i>
+               <p>Software</p>
+            </div>
+
+            <div class="card4">
+               <i class="fa-solid fa-mobile-screen"></i>
+               <p>Application</p>
+            </div>
+         </div>
+
+
+         <div class="hireme" data-aos="fade-up" data-aos-duration="3000">
+            <h2>
+               I am happy to know you <br>
+               that 300+ projects done sucessfully!
+            </h2>
+
+            <button>Hire Me</button>
+         </div>
+
+         <p class="about" data-aos="fade-right" id="Services">What I do?</p>
+         <h2 class="who" data-aos="fade-right">Here are some of my <br> expertise</h2>
+         <br>
+         <br>
+         <div class="mainbox" data-aos="fade-up" data-aos-duration="3000">
+            <div class="box1">
+               <div> <i class="fa-regular fa-lightbulb"></i> </div>
+               <h3>Innovative Ideas</h3>
+               <p>Separated they live in <br>Bookmarksgrove right at <br>the coast of the Semantics</p>
+            </div>
+            <div class="box2">
+               <div> <i class="fa-solid fa-database"></i> </div>
+               <h3>Software</h3>
+               <p>Separated they live in <br>Bookmarksgrove right at <br>the coast of the Semantics</p>
+            </div>
+            <div class="box3">
+               <div><i class="fa-solid fa-mobile-screen"></i> </div>
+               <h3>Application</h3>
+               <p>Separated they live in <br>Bookmarksgrove right at <br>the coast of the Semantics</p>
+            </div>
+         </div>
+
+
+         <div class="mainbox" data-aos="fade-up" data-aos-duration="3000">
+            <div class="box4">
+               <div> <i class="fa-brands fa-buffer"></i> </div>
+               <h3>Graphic Design</h3>
+               <p>Separated they live in <br>Bookmarksgrove right at <br>the coast of the Semantics</p>
+            </div>
+            <div class="box5">
+               <div> <i class="fa-solid fa-database"></i> </div>
+               <h3>Software</h3>
+               <p>Separated they live in <br>Bookmarksgrove right at <br>the coast of the Semantics</p>
+            </div>
+            <div class="box6">
+               <div><i class="fa-solid fa-mobile-screen"></i> </div>
+               <h3>Application</h3>
+               <p>Separated they live in <br>Bookmarksgrove right at <br>the coast of the Semantics</p>
+            </div>
+         </div>
+
+
+         <div class="backgroundimg">
+            <div>
+
+               <h2>309</h2>
+               <p>Cups of <br>coffee</p>
+            </div>
+
+            <div>
+               <h2>356</h2>
+               <p>Projects</p>
+            </div>
+
+            <div>
+               <h2>30</h2>
+               <p>Clients</p>
             </div>
 
 
-            <p class="about">About Us</p>
-            <h2 class="who">Who Am I?</h2>
-            <p class="para1"><b>Hi I'm Danish </b> On her way she met a copy. The copy warned the Little Blind Text, that
-                where it came from it <br> would have been rewritten a thousand times and everything that was left from
-                its origin would be the word "and" <br> and the Little Blind Text should turn around and return to its
-                own, safe country.</p>
-            <p class="para2">Even the all-powerful Pointing has no control about the blind texts it is an almost
-                unorthographic life One day <br>however a small line of blind text by the name of Lorem Ipsum decided to
-                leave for the far World of Grammar.</p>
-        </div>
+            <div>
+               <h2>10</h2>
+               <p>Partners</p>
+            </div>
+         </div>
 
-    </div>
+         <p class="about" data-aos="fade-right">My| Specialty</p>
+         <h2 class="who" data-aos="fade-right" id="Skills">My Skills</h2>
+         <br>
+         <br>
+
+         <p class="para2" data-aos="fade-right">The Big Oxmox advised her not to do so, because there were thousands of
+            bad Commas, wild Question Marks <br> and devious Semikoli, but the Little Blind Text didn’t listen. She
+            packed her seven versalia, <br> put her initial into the belt and made herself on the way.</p>
+         <br>
+         <br>
+         <div class="maindiv" data-aos="fade-up" data-aos-duration="3000">
+            <div class="subdiv">
+               <p class="persontage">75%</p>
+               <h3>Photoshop</h3>
+               <div class="line">
+                  <hr><i class="fa-solid fa-circle"></i>
+               </div>
+            </div>
+
+            <div class="subdiv2">
+               <p class="persontage2">60%</p>
+               <h3>jQuery</h3>
+               <div class="line2">
+                  <hr><i class="fa-solid fa-circle"></i>
+               </div>
+            </div>
+         </div>
+
+         <div class="maindiv" data-aos="fade-up" data-aos-duration="3000">
+            <div class="subdiv3">
+               <p class="persontage3">96%</p>
+               <h3>HTML5</h3>
+               <div class="line3">
+                  <hr><i class="fa-solid fa-circle"></i>
+               </div>
+            </div>
+
+            <div class="subdiv4">
+               <p class="persontage4">95%</p>
+               <h3>CSS3</h3>
+               <div class="line4">
+                  <hr><i class="fa-solid fa-circle"></i>
+               </div>
+            </div>
+         </div>
+
+         <div class="maindiv" data-aos="fade-up" data-aos-duration="3000">
+            <div class="subdiv5">
+               <p class="persontage5">70%</p>
+               <h3>WordPress</h3>
+               <div class="line5">
+                  <hr><i class="fa-solid fa-circle"></i>
+               </div>
+            </div>
+
+            <div class="subdiv6">
+               <p class="persontage6">80%</p>
+               <h3>SEO</h3>
+               <div class="line6">
+                  <hr><i class="fa-solid fa-circle"></i>
+               </div>
+            </div>
+         </div>
+
+         <p class="about" data-aos="fade-right" id="education">Education</p>
+         <h2 class="who" data-aos="fade-right">Education</h2>
+
+         <div class="education" data-aos="fade-up" data-aos-duration="3000">
+            <div>
+               <p>Master Degree Graphic Design</p>
+            </div>
+            <div>
+               <i class="fa-solid fa-minus"></i>
+            </div>
+         </div>
+
+         <div class="education2" data-aos="fade-up" data-aos-duration="3000">
+            <div>
+               <p>Far far away, behind the word mountains, far from <br>the countries Vokalia and Consonantia, there
+                  live <br> the blind texts.</p>
+            </div>
+            <div>
+               <p>Separated they live in Bookmarksgrove right at the <br>coast of the Semantics, a large language ocean.
+               </p>
+            </div>
+         </div>
+
+         <div class="education3" data-aos="fade-up" data-aos-duration="3000">
+            <div>
+               <p>Bachelor Degree of computer science</p>
+            </div>
+            <div>
+               <i class="fa-solid fa-plus"></i>
+            </div>
+         </div>
+
+         <div class="education4" data-aos="fade-up" data-aos-duration="3000">
+            <div>
+               <p>Diploma in information Tecnology</p>
+            </div>
+            <div>
+               <i class="fa-solid fa-plus"></i>
+            </div>
+         </div>
+
+         <div class="education5" data-aos="fade-up" data-aos-duration="3000">
+            <div>
+               <p>Diploma in information Tecnology</p>
+            </div>
+            <div>
+               <i class="fa-solid fa-plus"></i>
+            </div>
+         </div>
+
+         <div class="education6" data-aos="fade-up" data-aos-duration="3000">
+            <div>
+               <p>High school secondary education</p>
+            </div>
+            <div>
+               <i class="fa-solid fa-plus"></i>
+            </div>
+         </div>
+         <p class="about" data-aos="fade-right" id="Experience">Experience</p>
+         <h2 class="who" data-aos="fade-right">Work Experience</h2>
+         <div class="Experience" data-aos="fade-up" data-aos-duration="3000">
+            <div class="a">
+               <hr> <i class="fa-solid fa-pencil" id="icon1"></i> <i class="fa-solid fa-pencil" id="icon2"></i> <i
+                  class="fa-solid fa-pencil" id="icon3"></i> <i class="fa-solid fa-pencil" id="icon4"></i> <i
+                  class="fa-solid fa-pencil" id="icon5"></i>
+               <div></div>
+            </div>
+
+            <div class="b">
+               <div class="Experience1">
+                  <i class="fa-solid fa-caret-up"></i>
+                  <h2>Full Stack Developer <span>2025-2026</span></h2>
+                  <p>Tolerably earnestly middleton extremely distrusts she boy now not. Add and offered prepare <br>how
+                     cordial two promise. Greatly who affixed suppose but enquire compact prepare all put. <br> Added
+                     forth chief trees but rooms think may.</p>
+               </div>
+
+               <div class="Experience1">
+                  <i class="fa-solid fa-caret-up" id="iconA"></i>
+                  <h2>Front End Developer at Google Company <span>2025-2026</span></h2>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                     <br>life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for
+                     <br> the far World of Grammar.
+                  </p>
+               </div>
+
+               <div class="Experience1">
+                  <i class="fa-solid fa-caret-up" id="iconB"></i>
+                  <h2>System Analyst <span>2025-2026</span></h2>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                     <br>life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for
+                     <br> the far World of Grammar.
+                  </p>
+               </div>
+
+               <div class="Experience1">
+                  <i class="fa-solid fa-caret-up" id="iconc"></i>
+                  <h2>Creative Designer <span>2025-2026</span></h2>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                     <br>life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for
+                     <br> the far World of Grammar.
+                  </p>
+               </div>
+
+               <div class="Experience1">
+                  <i class="fa-solid fa-caret-up" id="icond"></i>
+                  <h2>UI/UX Designer at Envato <span>2025-2026</span></h2>
+                  <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic
+                     <br>life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for
+                     <br> the far World of Grammar.
+                  </p>
+               </div>
+            </div>
+         </div>
+
+
+         <p class="about" data-aos="fade-right" id="mywork">My Work</p>
+         <h2 class="who" data-aos="fade-right">Recent Work</h2>
+         <div class="Design" data-aos="fade-up" data-aos-duration="3000">
+            <a href="#" id="blu">Graphic Design </a>
+            <a href="#">Web Design </a>
+            <a href="#">Software</a>
+            <a href="#">Apps</a>
+         </div>
+
+         <div class="container">
+            <div class="minicontainer" data-aos="fade-up" data-aos-duration="3000">
+               <div class="boximg">
+                  <img src="images/img-1.jpg" alt="">
+               </div>
+
+               <div class="boxcontent">
+                  <h3>Work 1</h3>
+                  <p>website</p>
+                  <div class="button">
+                     <button><i class="fa-solid fa-share-nodes"></i></button>
+                     <button> <i class="fa-solid fa-eye"></i>100</button>
+                     <button><i class="fa-solid fa-heart"></i>49</button>
+                  </div>
+               </div>
+            </div>
+
+
+
+            <div class="minicontainer" data-aos="fade-up" data-aos-duration="3000">
+               <div class="boximg">
+                  <img src="images/img-2.jpg" alt="">
+               </div>
+
+               <div class="boxcontent">
+                  <h3>Work 2</h3>
+                  <p>website</p>
+                  <div class="button">
+                     <button><i class="fa-solid fa-share-nodes"></i></button>
+                     <button> <i class="fa-solid fa-eye"></i>100</button>
+                     <button><i class="fa-solid fa-heart"></i>49</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+
+         <div class="container">
+            <div class="minicontainer" data-aos="fade-up" data-aos-duration="3000">
+               <div class="boximg">
+                  <img src="images/img-3.jpg" alt="">
+               </div>
+
+               <div class="boxcontent">
+                  <h3>Work 3</h3>
+                  <p>website</p>
+                  <div class="button">
+                     <button><i class="fa-solid fa-share-nodes"></i></button>
+                     <button> <i class="fa-solid fa-eye"></i>100</button>
+                     <button><i class="fa-solid fa-heart"></i>49</button>
+                  </div>
+               </div>
+            </div>
+
+
+
+            <div class="minicontainer" data-aos="fade-up" data-aos-duration="3000">
+               <div class="boximg">
+                  <img src="images/img-4.jpg" alt="">
+               </div>
+
+               <div class="boxcontent">
+                  <h3>Work 4</h3>
+                  <p>website</p>
+                  <div class="button">
+                     <button><i class="fa-solid fa-share-nodes"></i></button>
+                     <button> <i class="fa-solid fa-eye"></i>100</button>
+                     <button><i class="fa-solid fa-heart"></i>49</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+
+
+
+         <div class="container">
+            <div class="minicontainer" data-aos="fade-up" data-aos-duration="3000">
+               <div class="boximg">
+                  <img src="images/img-5.jpg" alt="">
+               </div>
+
+               <div class="boxcontent">
+                  <h3>Work 5</h3>
+                  <p>website</p>
+                  <div class="button">
+                     <button><i class="fa-solid fa-share-nodes"></i></button>
+                     <button> <i class="fa-solid fa-eye"></i>100</button>
+                     <button><i class="fa-solid fa-heart"></i>49</button>
+                  </div>
+               </div>
+            </div>
+
+
+
+            <div class="minicontainer" data-aos="fade-up" data-aos-duration="3000">
+               <div class="boximg">
+                  <img src="images/img-6.jpg" alt="">
+               </div>
+
+               <div class="boxcontent">
+                  <h3>Work 6</h3>
+                  <p>website</p>
+                  <div class="button">
+                     <button><i class="fa-solid fa-share-nodes"></i></button>
+                     <button> <i class="fa-solid fa-eye"></i>100</button>
+                     <button><i class="fa-solid fa-heart"></i>49</button>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+         <div class="loadmore" data-aos="fade-up" data-aos-duration="3000">
+            <button>load more <i class="fa-solid fa-spinner"></i></button>
+         </div>
+
+
+         <p class="about" data-aos="fade-right">Read</p>
+         <h2 class="who" data-aos="fade-right" id="blog">Recent Blog</h2>
+         <div class="mainblog" data-aos="fade-up" data-aos-duration="3000">
+            <div class="blogdiv">
+               <div class="blogimg">
+
+               </div>
+
+               <div class="blogcontent">
+                  <p id="paragrap1">
+                     April 14, 2025 | Web Design | <i class="fa-regular fa-comment"></i> 4
+                  </p>
+
+                  <h3>Renovating National <br> Gallery</h3>
+
+                  <p id="paragrap2">Separated they live in <br>Bookmarksgrove right at the coast <br>of the Semantics, a
+                     large language ocean.</p>
+               </div>
+            </div>
+
+
+            <div class="blogdiv">
+               <div class="blogimg2">
+
+               </div>
+
+               <div class="blogcontent">
+                  <p id="paragrap1">
+                     April 14, 2025 | Web Design | <i class="fa-regular fa-comment"></i> 4
+                  </p>
+
+                  <h3>Wordpress for a <br>Beginner</h3>
+
+                  <p id="paragrap2">Separated they live in <br>Bookmarksgrove right at the coast <br>of the Semantics, a
+                     large language ocean.</p>
+               </div>
+            </div>
+
+
+            <div class="blogdiv">
+               <div class="blogimg3">
+
+               </div>
+
+               <div class="blogcontent">
+                  <p id="paragrap1">
+                     April 14, 2025 | Web Design | <i class="fa-regular fa-comment"></i> 4
+                  </p>
+
+                  <h3>Make website from <br>scratch</h3>
+
+                  <p id="paragrap2">Separated they live in <br>Bookmarksgrove right at the coast <br>of the Semantics, a
+                     large language ocean.</p>
+               </div>
+            </div>
+
+         </div>
+         <br>
+         <div class="loadmore" data-aos="fade-up" data-aos-duration="3000">
+            <button>load more <i class="fa-solid fa-spinner"></i></button>
+         </div>
+
+         <p class="about" data-aos="fade-right">Get in Touch</p>
+         <h2 class="who" data-aos="fade-right" id="contact">Contact</h2>
+
+
+         <div class="mainconact" data-aos="fade-up" data-aos-duration="3000">
+            <div class="contect1">
+               <br>
+               <div class="subcontect1">
+                  <div>
+                     <i class="fa-solid fa-earth-africa"></i>
+                  </div>
+
+                  <div>
+                     <p>info@domain.com</p>
+                  </div>
+               </div>
+               <br>
+               <div class="subcontect1">
+                  <div>
+                     <i class="fa-regular fa-map"></i>
+                  </div>
+
+                  <div>
+                     <p style="color: rgba(0, 0, 0, 0.7);">198 West 21th Street, Suite <br>721 New York NY 10016</p>
+                  </div>
+               </div>
+               <br>
+               <div class="subcontect1">
+                  <div>
+                     <i class="fa-solid fa-phone-flip"></i>
+                  </div>
+
+                  <div>
+                     <p>+123 456 7890</p>
+                  </div>
+               </div>
+            </div>
+
+            <div class="contect2">
+               <input type="text" placeholder="Name">
+               <input type="email" placeholder="Email" required>
+               <input type="text" placeholder="Subject">
+               <textarea name="" id="" placeholder="Message"></textarea>
+               <button>SEND MESSAGE</button>
+            </div>
+         </div>
+
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+         <br>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+
+
+
+
+
+   </div>
 
 </body>
 
